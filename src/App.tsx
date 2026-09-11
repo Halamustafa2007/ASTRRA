@@ -609,7 +609,7 @@ function Hero() {
         <div className="art-ring ring-two" />
 
         <img
-          src="/hero-robot.png"
+          src={`${import.meta.env.BASE_URL}hero-robot.png`}
           alt="Astrra Tech digital technology artwork"
           className="hero-robot"
         />
